@@ -1,0 +1,49 @@
+header {
+    margin-bottom: 7rem;
+  }
+  
+  .navbar{
+    position: absolute!important;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    width: 100%;
+
+    &.open{
+      background-color: rgba(40, 64, 112, 0.904);
+    }
+
+    &-brand.open img {
+      content: url("../img/logo-bookmark-white.svg");
+      width: 148px;
+      height: 25px;
+    }
+
+    &-toggler:focus {
+        outline: none;
+        box-shadow: 0 0 0 0!important;
+        width: none;
+      }
+  
+    &-toggler-icon {
+      background-image: url("../img/icon-hamburger.svg");
+      color: #000;
+      opacity: 1;
+      background-color: inherit;
+      background-size: 100%;
+      background-position: center center;
+      display: flex;
+    
+      &.open {
+        background-image: url("../img/icon-close.svg");
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+  }
+  
+  .social-icons {
+    width: 100%;
+    height: 100px;
+
+  }

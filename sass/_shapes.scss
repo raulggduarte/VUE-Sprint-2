@@ -1,0 +1,70 @@
+.img-shaped {
+  position: relative;
+}
+
+.bg-shape {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.circle {
+  position: absolute;
+  bottom: 0px;
+  left: 50px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.square {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  height: 150px;
+  width: 100%;
+  z-index: -3;
+}
+
+.white-square {
+  position: absolute;
+  bottom: -1px;
+  left: 0px;
+  height: 152px;
+  width: 125px;
+  z-index: -2;
+  background-color: white;
+}
+
+.circle-right {
+  position: absolute;
+  bottom: -30px;
+  right: 50px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.square-right {
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  height: 150px;
+  width: 100%;
+  z-index: -3;
+}
+
+.white-square-right {
+  position: absolute;
+  bottom: -35px;
+  right: 0px;
+  height: 160px;
+  width: 125px;
+  z-index: -2;
+  background-color: white;
+}

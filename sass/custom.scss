@@ -1,0 +1,28 @@
+@import 'config';
+@import 'menu';
+@import 'intro';
+@import 'cards';
+@import 'tabs';
+@import 'accordion';
+@import 'footer';
+@import 'responsive';
+@import 'shapes';
+
+//custom variables
+$primary: #5265e0;
+$secondary: #fa5959;
+
+//import the functions & variables
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$custom-theme-colors: (
+  "bluetransp": rgb(32, 63, 141, 0.5),
+  "grey": #9c9c9c,
+  "darkblue": #242946
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+//import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";

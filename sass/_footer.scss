@@ -1,0 +1,63 @@
+.invalid-tooltip {
+  position: relative !important;
+  font-size: 0.6rem !important;
+  font-style: italic;
+  text-align: left !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  width: 100%!important;
+}
+
+.was-validated .form-control:invalid,
+.form-control.is-invalid {
+  background-image: url("../img/icon-error.svg") !important;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-color: #fa5959;
+}
+
+footer > div {
+  max-width: 100% !important;
+
+  & form {
+    max-width: 500px;
+
+    & p {
+      font-size: 0.7rem!important;
+      letter-spacing: 0.2rem;
+    }
+  }
+
+  & label {
+    display: flex;
+    justify-content: center;
+
+    & h3 {
+      max-width: 80%;
+    }
+  }
+
+  & button {
+    width: 100%;
+  }
+
+  & ul {
+    list-style-type: none;
+
+    & li > a {
+      font-size: 0.8rem!important;
+    }
+  }
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+.footer-brand > img {
+  max-width: 120px!important;
+}
+
+footer .fab {
+  font-size: 1.4rem;
+}

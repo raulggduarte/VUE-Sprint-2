@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mw-440px {
+  max-width: 440px!important;
+}
+
+.mw-320px {
+  max-width: 320px!important;
+}
+
+.plain-text {
+  font-size: 0.8rem !important;
+}
+
+.btn-greybutton {
+  color: #000 !important;
+  background-color: #d7d7d7 !important;
+  border-color: #d7d7d7 !important;
+}
+
+.btn-greybutton:hover,
+.btn-greybutton:focus,
+.btn-greybutton:active,
+.btn-greybutton.active,
+.open > .dropdown-toggle.btn-greybutton {
+  color: #999999 !important;
+  background-color: #fff !important;
+  border-color: #999999 !important;
+}
+
+@mixin media-lg {
+  @media screen and (min-width: 992px) {
+    @content;
+  }
+}

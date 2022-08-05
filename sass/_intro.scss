@@ -1,0 +1,7 @@
+.intro {
+    & div:nth-child(2) {
+        & button {
+            font-size: 0.8rem;
+        }
+    }
+}
